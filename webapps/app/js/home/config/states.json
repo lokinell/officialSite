@@ -103,10 +103,10 @@
                 "templateUrl":"header.html"
             },
             "header@contact":{
-                "templateUrl":"/about/guider.html"
+                "templateUrl":"about/guider.html"
             },
             "content@contact":{
-                "templateUrl":"/about/contactUs.html"
+                "templateUrl":"about/contactUs.html"
             },
             "footer@contact":{
                 "templateUrl":"footer.html"
