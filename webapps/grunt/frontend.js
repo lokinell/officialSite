@@ -82,6 +82,14 @@ module.exports = function(grunt, config, paths) {
                 src: [
                     'modernizr-custom.js'
                 ]
+            }, {
+               expand: true,
+                dot: true,
+                cwd: paths['bower_vendors']+'angular-ui-router/release',
+                dest: paths['build'],
+                src: [
+                    'angular-ui-router.js'
+                ]
             }]
         }
     });
